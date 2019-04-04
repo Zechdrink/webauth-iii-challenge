@@ -1,11 +1,21 @@
 {
+  "name": "auth-iii-challehge",
+  "version": "1.0.0",
+  "description": "Auth III Module Guided Project",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon",
+    "start": "node index.js"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
+    "create-react-app": "^2.1.8",
     "express": "^4.16.4",
     "helmet": "^3.16.0",
     "jsonwebtoken": "^8.5.1",
     "knex": "^0.16.3",
+    "nodemon": "^1.18.10",
     "sqlite3": "^4.0.6"
   }
 }
